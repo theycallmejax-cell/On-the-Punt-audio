@@ -1,0 +1,359 @@
+{
+  "characters": [
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "Lads",
+      "arrival_line": "Don't mind me. Just slipped in.",
+      "description": "Human figure in full banana costume.",
+      "voice_file": "Banana entrance.m4a"
+    },
+    {
+      "id": "rock_bloke",
+      "name": "Rock Bloke",
+      "category": "Lads",
+      "arrival_line": "I came as Nick Riewoldt.",
+      "description": "Buck’s weekend figure in white singlet, fist raised. Thinks he is Nick Riewoldt.",
+      "voice_file": null
+    },
+    {
+      "id": "pirate",
+      "name": "Pirate",
+      "category": "Lads",
+      "arrival_line": "Arrrrgh, ya legends, we're on.",
+      "description": "Bearded pirate holding a tankard.",
+      "voice_file": null
+    },
+    {
+      "id": "traffic_cone",
+      "name": "Traffic Cone",
+      "category": "Lads",
+      "arrival_line": "Yeah... I had to improvise...",
+      "description": "Wearing a traffic cone as a hat. Possibly found it on the way to the pub.",
+      "voice_file": null
+    },
+    {
+      "id": "mankini_maverick",
+      "name": "Mankini Maverick",
+      "category": "Lads",
+      "arrival_line": "Very Nice.",
+      "description": "Green mankini, chest hair, uncle in the industry.",
+      "voice_file": "Maverick entrance.m4a"
+    },
+    {
+      "id": "bin_chicken",
+      "name": "Bin Chicken",
+      "category": "Lads",
+      "arrival_line": "Anyone got a chip?",
+      "description": "Ibis costume, holding a cardboard box.",
+      "voice_file": "Bin Chicken Entrance.m4a"
+    },
+    {
+      "id": "80s_gym_junkie",
+      "name": "80s Gym Junkie",
+      "category": "Lads",
+      "arrival_line": "Let's Gooooooo!",
+      "description": "Neon pink gym gear with boombox.",
+      "voice_file": null
+    },
+    {
+      "id": "out_of_work_jockey",
+      "name": "Out-of-Work Jockey",
+      "category": "Lads",
+      "arrival_line": "Couldn't get a ride this weekend lads, looks like I'm with you.",
+      "description": "Jockey silks and helmet. May actually be an out of work jockey.",
+      "voice_file": null
+    },
+    {
+      "id": "spartan_warrior",
+      "name": "Spartan Warrior",
+      "category": "Lads",
+      "arrival_line": "SPARTA!!!",
+      "description": "Armoured Spartan with spear and shield.",
+      "voice_file": null
+    },
+    {
+      "id": "tyler_the_tradie",
+      "name": "Tyler the Tradie",
+      "category": "Lads",
+      "arrival_line": "Knocked off early. Don't tell the boss.",
+      "description": "Hi-vis vest, holding a pie.",
+      "voice_file": "Tyler Tradie entrance.m4a"
+    },
+    {
+      "id": "swinger",
+      "name": "Swinger",
+      "category": "Lads",
+      "arrival_line": "Righto team, Straight Bats.",
+      "description": "80s West Indian cricketer in whites, iridised sunnies, with bat.",
+      "voice_file": null
+    },
+    {
+      "id": "bondi",
+      "name": "Bondi",
+      "category": "Lads",
+      "arrival_line": "Slip, Slop, Slurrp.",
+      "description": "Swimwear, sunscreen and a drink bottle.",
+      "voice_file": null
+    },
+    {
+      "id": "kango",
+      "name": "Kango",
+      "category": "Lads",
+      "arrival_line": "Strayyaa!",
+      "description": "Kangaroo in boxing gloves.",
+      "voice_file": null
+    },
+    {
+      "id": "safari_guide",
+      "name": "Safari Guide",
+      "category": "Lads",
+      "arrival_line": "Crikey, we're on here people.",
+      "description": "Khaki, with snake.",
+      "voice_file": null
+    },
+    {
+      "id": "disco",
+      "name": "Disco",
+      "category": "Lads",
+      "arrival_line": "Let's dance.",
+      "description": "Gold sequin suit with disco ball.",
+      "voice_file": null
+    },
+    {
+      "id": "stubby",
+      "name": "Stubby",
+      "category": "Lads",
+      "arrival_line": "Glug Glug.",
+      "description": "Full Stubby costume labelled “Top Bloke”.",
+      "voice_file": null
+    },
+    {
+      "id": "big_baby",
+      "name": "Big Baby",
+      "category": "Lads",
+      "arrival_line": "Hot tip, this isn't milk in my bottle.",
+      "description": "Large figure in nappy with dummy and rattle.",
+      "voice_file": null
+    },
+    {
+      "id": "diy_lawn_bowler",
+      "name": "DIY Lawn Bowler",
+      "category": "Lads",
+      "arrival_line": "Sorry blokes, best I could do...",
+      "description": "Lawn bowls whites with bowling ball. Best he could do.",
+      "voice_file": null
+    },
+    {
+      "id": "mad_scientist",
+      "name": "Mad Scientist",
+      "category": "Lads",
+      "arrival_line": "I've run the numbers. Statistically, this is going to go badly. Let's do it.",
+      "description": "Wild-haired, lab coat, beakers.",
+      "voice_file": null
+    },
+    {
+      "id": "super_villain",
+      "name": "Super Villain",
+      "category": "Lads",
+      "arrival_line": "Mooo Ahhh Ahhhh!",
+      "description": "Villain-style cape with eyepatch.",
+      "voice_file": null
+    },
+    {
+      "id": "indy",
+      "name": "Indy",
+      "category": "Lads",
+      "arrival_line": "Shaken Bacon...",
+      "description": "Racing suit with trophy. Has a need for speed.",
+      "voice_file": null
+    },
+    {
+      "id": "scuba",
+      "name": "Scuba",
+      "category": "Lads",
+      "arrival_line": "Why do scuba divers roll backward out of the boat? Because if they fell forward, they'd still be in the boat!",
+      "description": "Full scuba gear with lobster.",
+      "voice_file": null
+    },
+    {
+      "id": "mully",
+      "name": "Mully",
+      "category": "Lads",
+      "arrival_line": "Geez, didn't realise we were dressin up...",
+      "description": "Curly mulleted Aussie legend. Australia singlet, footy shorts, beer, handlebar mo and tatts.",
+      "voice_file": "Mully Entrance.m4a",
+      "restrictions": [
+        "never_first_arrival"
+      ]
+    },
+    {
+      "id": "grant_the_gnome",
+      "name": "Grant the Gnome",
+      "category": "Lads",
+      "arrival_line": "Aaaah, there's Gnome place like home...",
+      "description": "Garden gnome with fishing rod and red pointed hat.",
+      "voice_file": "Grant line fixed.m4a"
+    },
+    {
+      "id": "shaz",
+      "name": "Shaz",
+      "category": "Ladies",
+      "arrival_line": "Bali Tatts, no ragrets.",
+      "description": "Always up for a good time, loves a bourbon and Bali.",
+      "voice_file": null
+    },
+    {
+      "id": "narelle",
+      "name": "Narelle",
+      "category": "Ladies",
+      "arrival_line": "Here if you Neeed!",
+      "description": "Div 7 netballer, perennial wooden spooner, does it for the love of the game.",
+      "voice_file": null
+    },
+    {
+      "id": "aerobics_queen",
+      "name": "Aerobics Queen",
+      "category": "Ladies",
+      "arrival_line": "Let's Goooooooo!",
+      "description": "Loves it.",
+      "voice_file": null
+    },
+    {
+      "id": "the_hen",
+      "name": "The Hen",
+      "category": "Ladies",
+      "arrival_line": "Happy to be here...",
+      "description": "Thrilled to be here, absolutely no regrets.",
+      "voice_file": null
+    },
+    {
+      "id": "roller_girl",
+      "name": "Roller Girl",
+      "category": "Ladies",
+      "arrival_line": "Orders Up!",
+      "description": "Living her best life, nobody’s sure if she can skate.",
+      "voice_file": null
+    },
+    {
+      "id": "daisy_mae",
+      "name": "Daisy Mae",
+      "category": "Ladies",
+      "arrival_line": "Yee Hah!",
+      "description": "Giddy up, cow girl through and through.",
+      "voice_file": null
+    },
+    {
+      "id": "bachie",
+      "name": "Bachie",
+      "category": "Ladies",
+      "arrival_line": "PICK MEEEE!",
+      "description": "Big time ‘pick me’ energy.",
+      "voice_file": null
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "category": "Ladies",
+      "arrival_line": "I've got a good one in the 5th. Scouts Honour.",
+      "description": "Scouts honour that she is usually up to no good.",
+      "voice_file": null
+    },
+    {
+      "id": "borbie",
+      "name": "Borbie",
+      "category": "Ladies",
+      "arrival_line": "Hey, hey.",
+      "description": "Stepford say what?",
+      "voice_file": null
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "category": "Ladies",
+      "arrival_line": "Leapin Lizzards, we're on here.",
+      "description": "Musical theatre, can belt an F7 (in the shower).",
+      "voice_file": null
+    },
+    {
+      "id": "astro",
+      "name": "Astro",
+      "category": "Neither",
+      "arrival_line": "I'm nervous, I just came from TAFE. Cert 2 Aeronautics...",
+      "description": "Did an Astronaght course at Waverly TAFE.",
+      "voice_file": null
+    },
+    {
+      "id": "tubby",
+      "name": "Tubby",
+      "category": "Neither",
+      "arrival_line": "Time for Tubby Betskies.",
+      "description": "Is clearly on day four.",
+      "voice_file": null
+    },
+    {
+      "id": "a_fat_cat",
+      "name": "A Fat Cat",
+      "category": "Neither",
+      "arrival_line": "Pants are optional.",
+      "description": "A cat that is fat.",
+      "voice_file": null
+    },
+    {
+      "id": "yella",
+      "name": "Yella",
+      "category": "Neither",
+      "arrival_line": "Meep Mop.",
+      "description": "Nobody is actually sure who this is…",
+      "voice_file": null
+    },
+    {
+      "id": "arien",
+      "name": "Arien",
+      "category": "Neither",
+      "arrival_line": "Take me to your Leader.",
+      "description": "Just here for the atmosphere…",
+      "voice_file": null
+    },
+    {
+      "id": "ninja",
+      "name": "Ninja",
+      "category": "Neither",
+      "arrival_line": "Ninja Vanish! *Smoke Bomb*",
+      "description": "Could actually be a Ninja.",
+      "voice_file": null
+    },
+    {
+      "id": "pickles_the_clown",
+      "name": "Pickles the Clown",
+      "category": "Neither",
+      "arrival_line": "Do you want a Balloon?",
+      "description": "Used to work in a big fast-food joint.",
+      "voice_file": null
+    },
+    {
+      "id": "silly_goose",
+      "name": "Silly Goose",
+      "category": "Neither",
+      "arrival_line": "Honk.",
+      "description": "A silly Goose.",
+      "voice_file": null
+    },
+    {
+      "id": "emu",
+      "name": "Emu",
+      "category": "Neither",
+      "arrival_line": "Bock.",
+      "description": "Loves a laugh, life of the party, won a war. But mostly just an Emu.",
+      "voice_file": null
+    },
+    {
+      "id": "oak",
+      "name": "Oak",
+      "category": "Neither",
+      "arrival_line": "Oak-ay, oak-ay, settle down! I've arrived!",
+      "description": "An oak tree.",
+      "voice_file": null
+    }
+  ]
+}

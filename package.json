@@ -1,0 +1,23 @@
+{
+  "name": "on-the-punt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "On the Punt! — the pub in your pocket. Multiplayer social wagering theatre.",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "TIME_SCALE=0.25 node server/index.js",
+    "art": "node tools/slice-art.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "sharp": "0.33.5",
+    "socket.io-client": "^4.8.1"
+  }
+}

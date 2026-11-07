@@ -1,0 +1,4 @@
+node_modules/
+data/store.json
+data/*.tmp
+.DS_Store
