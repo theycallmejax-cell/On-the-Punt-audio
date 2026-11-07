@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: on-the-punt
+    runtime: node
+    plan: free
+    branch: claude/cleaned-app-code-location-5w9VJ
+    buildCommand: npm ci --omit=dev
+    startCommand: node server/index.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
