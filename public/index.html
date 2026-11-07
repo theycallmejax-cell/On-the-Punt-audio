@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0a1a0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>On The Punt!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+<link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+<div class="phone" id="phone">
+
+  <section class="screen active" id="s-splash">
+    <img class="splash-img" src="/assets/img/splash.png" alt="On the Punt! The pub in your pocket">
+    <div class="begin-wrap" id="begin-wrap"><button class="pill" id="beginBtn">Begin</button></div>
+  </section>
+
+  <section class="screen" id="s-pub">
+    <div class="pub-img"></div>
+    <div class="cta-block">
+      <p class="tagline">It's the thrill of the pub in your pocket.<br>Hero or Villain? The call is yours.</p>
+      <button class="btn-gold" id="startBtn">GET ON THE PUNT</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-profile">
+    <div class="header">
+      <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:22px;">🎭</span><span class="header-title" id="profile-head">Who are ya?</span></div>
+      <button class="link hidden" id="profileBack">Back ›</button>
+    </div>
+    <div class="profile-body scroll-quiet" id="profile-body">
+      <div id="name-block">
+        <p class="profile-sub">Pick a name your mates will know, then pick your costume.</p>
+        <input class="field" id="username" maxlength="20" placeholder="Your punter name" autocomplete="nickname" style="width:100%;font-size:18px;text-align:center;">
+      </div>
+      <div class="tabs" id="cat-tabs">
+        <button class="tab sel" data-cat="Lads">Lads</button>
+        <button class="tab" data-cat="Ladies">Ladies</button>
+        <button class="tab" data-cat="Neither">Neither</button>
+      </div>
+      <div class="char-grid" id="char-grid"></div>
+    </div>
+    <div class="char-detail hidden" id="char-detail">
+      <img id="cd-img" alt="">
+      <div class="who"><b id="cd-name"></b><span id="cd-line"></span><i id="cd-desc"></i></div>
+      <button class="pill" id="profileGo">Let's go ›</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-lobby">
+    <div class="header">
+      <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:22px;">🏇</span><span class="header-title">Punters Club</span></div>
+      <div class="header-right">
+        <span class="balance-chip" id="balance">$0</span>
+        <span class="live-badge">LIVE</span>
+        <button class="avatar-circle" id="meAvatar" aria-label="Change costume"><img alt=""></button>
+      </div>
+    </div>
+    <div class="lobby-body scroll-quiet">
+      <div>
+        <div class="section-label">YOUR BUY-IN</div>
+        <div class="buyin-grid" id="buyins"></div>
+      </div>
+      <div>
+        <div class="section-label">START A SESSION</div>
+        <button class="row-card" id="privateBtn"><span class="icon">🔒</span><div><div class="row-title">Private Room</div><div class="row-sub">Invite your mates with a code</div></div><span class="row-arrow">›</span></button>
+        <button class="row-card" id="findBtn"><span class="icon">🎲</span><div><div class="row-title">Find a Table</div><div class="row-sub" id="find-sub">Match with punters at $20</div></div><span class="row-arrow">›</span></button>
+      </div>
+      <div>
+        <div class="section-label">LIVE SESSIONS</div>
+        <div id="live-list"></div>
+      </div>
+      <div id="invites-block" class="hidden">
+        <div class="section-label">INVITES</div>
+        <div id="invites"></div>
+      </div>
+      <div>
+        <div class="section-label">YOUR ROOMS</div>
+        <div id="rooms"></div>
+      </div>
+      <div>
+        <div class="section-label">YOUR PUNTERS</div>
+        <div id="requests"></div>
+        <div id="mates"></div>
+        <div class="inline-form" style="margin-top:10px;">
+          <input class="field" id="mateName" placeholder="Add a mate by username" maxlength="20">
+          <button class="pill" id="mateAdd">Add</button>
+        </div>
+      </div>
+      <button class="pill ghost small top-up" id="topUp">Top up play money (+$500)</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-table">
+    <div class="stage" id="stage">
+      <div class="pub-scene"></div>
+      <div class="tv" id="tv">
+        <div class="tv-feed" id="tv-feed"><div class="rail"></div><div class="runners">🏇 🏇🏇 🏇 🏇🏇</div><div class="tv-strip"><span id="tv-title">RACING</span><span id="tv-jump"></span></div></div>
+        <video id="race-video" class="hidden" playsinline muted preload="none" src="https://github.com/theycallmejax-cell/On-the-Punt-audio/releases/download/V1.0/Race.3.Belmont.mp4"></video>
+      </div>
+      <div class="seats" id="seats"></div>
+      <div class="wood"><div class="props">🍺 💵 📱 📰 🍺</div></div>
+      <img class="arrival-img" id="arrival-img" alt="">
+      <div class="nameplate" id="nameplate"></div>
+      <div class="hud" id="hud"></div>
+      <div id="stage-layer"></div>
+    </div>
+    <div class="banter-wrap" id="banter-wrap">
+      <div class="banter-header"><div class="banter-divider"></div><span class="banter-title">BANTER</span><div class="banter-divider"></div></div>
+      <div class="banter-messages scroll-quiet" id="banter"></div>
+      <img class="cheryl-float hidden" id="cheryl-float" src="/assets/img/cheryl.jpg" alt="Cheryl">
+      <form class="composer" id="composer" autocomplete="off">
+        <input class="field" id="chat" maxlength="200" placeholder="Say something...">
+        <button class="send" type="submit">Send</button>
+        <button class="sneaky" type="button" id="sneakyBtn">Sneaky</button>
+      </form>
+    </div>
+    <button class="cashout-btn" id="cashoutBtn">Cash Out</button>
+    <button class="mute-btn" id="muteBtn" aria-label="Sound">🔊</button>
+  </section>
+
+  <div id="overlays"></div>
+  <div id="toasts"></div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

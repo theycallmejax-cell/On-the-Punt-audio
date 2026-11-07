@@ -1,0 +1,11 @@
+{
+  "name": "On the Punt!",
+  "short_name": "On the Punt",
+  "description": "The pub in your pocket.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#0a1a0a",
+  "icons": [{ "src": "/assets/img/cheryl-avatar.jpg", "sizes": "160x160", "type": "image/jpeg" }]
+}

@@ -449,15 +449,10 @@ class Room {
     socket.join(this.id);
     if (p.table) socket.join(p.table.channel());
     socket.data.roomId = this.id;
+    socket.emit('backlog', this.banter.slice(-60));
     this.changed();
   }
-  attach(p, socket) {
-    p.sockets.add(socket.id);
-    socket.join(this.id);
-    socket.join(p.table.channel());
-    socket.data.roomId = this.id;
-    this.changed();
-  }
+  attach(p, socket) { this.bind(p, socket); }
   detachSocket(socketId) {
     for (const p of this.allPlayers()) p.sockets.delete(socketId);
   }
